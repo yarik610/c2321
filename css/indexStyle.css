@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Grechen+Fuemen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    font-family: "Abril Fatface", serif;
+    text-decoration: none;
+    color: rgb(133, 0, 177);
+    font-size: 40px;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    padding: 0 50px;
+}
+
+.main_text{
+    margin-right: 50px;
+}
+
+.main_text h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.main_text p{
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.main_text a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 1000;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.main_text a:hover {
+background-color: rgb(255, 0, 0);
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
